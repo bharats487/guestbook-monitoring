@@ -1,0 +1,7 @@
+name: guestbook-monitoring
+runtime: nodejs
+description: Kubernetes Guestbook with Prometheus and Grafana monitoring
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-typescript
